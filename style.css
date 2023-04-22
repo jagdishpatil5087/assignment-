@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.neuro-mag{
+  height: 150px;
+  width: 130px;
+  
+  /* border: 2px solid rgb(0, 0, 0) ; */
+  background-image: url("Screenshot_1.png") ;
+   background-size: cover;  
+}
+  #neuro-mag{
+  height: 200px;
+  width: 120px;
+  background-image: url("Screenshot_1.png") ;
+  background-size: cover; 
+  
+}   
+
+
+.sowelo{
+  height: 150px;
+  width: 130px;
+  
+  /* border: 2px solid rgb(0, 0, 0) ; */
+  background-image: url("Screenshot_2.png") ;
+   background-size: cover;  
+}
+  #sowelo{
+  height: 200px;
+  width: 120px;
+  background-image: url("Screenshot_2.png") ;
+  background-size: cover; 
+  
+}  
+
+
+.poopept{
+  height: 150px;
+  width: 130px;
+  
+  /* border: 2px solid rgb(0, 0, 0) ; */
+  background-image: url("Screenshot_3.png") ;
+   background-size: cover;  
+}
+  #poopept{
+  height: 200px;
+  width: 120px;
+  background-image: url("Screenshot_3.png") ;
+  background-size: cover; 
+  
+}
+
+
+.nutricost{
+  height: 150px;
+  width: 120px;
+  
+  /* border: 2px solid rgb(0, 0, 0) ; */
+  background-image: url("Screenshot_4.png") ;
+   background-size: cover;  
+}
+  #nutricost{
+  height: 200px;
+  width: 120px;
+  background-image: url("Screenshot_4.png") ;
+  background-size: cover; 
+  
+}
+
+
+.draggable-elements {
+  display: flex;
+  /* justify-content: center; */
+  /* border: 2px solid black ; */
+  height: 300px;
+  
+}
+
+.draggable {
+   height: 190px;
+  width: 120px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  margin: 0rem 0.5rem;
+  cursor: move;
+  transition: opacity 0.2s;
+}
+.draggable:hover {
+  opacity: 0.5;
+}
+.droppable {
+  height: 190px;
+  width: 120px;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  border: 3px dashed #111;
+  transition: border-width 0.2s, transform 0.2s, background-color 0.4s;
+}
+.droppable span {
+  font-size: 1.25rem;
+  pointer-events: none; /* The element is never the target of pointer events */
+}
+
+/* Drag and Drop Related Styling */
+
+.droppable.droppable-hover {
+  /* background-color: #bee3f0; */
+  border-width: 5px;
+  transform: scale(1.1);
+}
+.droppable.dropped {
+  border-style: solid;
+  color: #fff;
+}
+.droppable.dropped span {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+.droppable.dropped i {
+  pointer-events: none;
+}
+.draggable.dragged {
+  user-select: none;
+  opacity: 0.1;
+  cursor: default;
+}
+.draggable.dragged:hover {
+  opacity: 0.1;
+}
+
+@media (max-width: 600px) {
+  html { font-size: 14px; }
+  .draggable-elements { margin: 1.5rem; }
+}
+
+
+.bar{
+  width: 80%;
+  height: 70px;
+  /* border: 2px solid black ; */
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+}
+.log{
+  /* border: 2px solid black ; */
+  width: 100px;
+  height: 100px;
+  background-image: url("5977581.png") ;
+  background-size: cover;
+
+}
+.shop_by{
+  margin-left: 10px;
+  font-size: 15px;
+  width: 100px;
+  padding-top: 20px;
+}
+
+.srech{
+  border: 2px solid black ;
+  width: 600px;
+  height: 20px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.all_c{
+
+  border: 2px solid black ;
+  width: 120px;
+  height: 20px;
+  margin-top: 10px;
+  padding: 10px;
+
+}
+
+.srech_but{
+  background-color: blue;
+
+  border: 2px solid black ;
+  width: 120px;
+  height: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  color: white;
+  text-align: center;
+  
+
+}
+
+
+
+.main{
+  padding-top: 50px;
+  padding-left: 30px;
+  /* border: 2px solid black ; */
+  height: 130px;
+  width: 83%;
+  margin: auto;
+  background-color: #c9E43b;
+  margin-top: 50px;
+}
+
+.main-bottem{
+  /* border: 2px solid black ; */
+  height: 700px;
+  width: 85%;
+  margin: auto;
+  display: flex;
+
+}
+
+.main-l{
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+ul{
+  list-style: none;
+  padding: 20px;
+}
+
+li{
+  margin-top: 10px;
+}
+
+.main-l{
+ 
+  width: 20%;
+  /* border: 2px solid black ; */
+}
+
+.main-r{
+  
+  width: 80%;
+   border: 1px solid rgb(140, 140, 140) ; 
+}
+
+.getshoopping{
+
+  height: 300px;
+  width: 90%;
+  /* border: 2px solid black ; */
+  margin: auto;
+  margin-top: 30px; 
+
+}
+
+.droppable-elements{
+  display: flex;
+}
+
+.item-center{
+  /* border: 2px solid black ; */
+   margin: auto;
+}
+
+.item-name{
+  /* border: 2px solid black ; */
+  height: 40px;
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+.sp{
+  margin-top: 30px;
+  height: 200px;
+  width: 200px;
+}
+
+.add{
+  width: 120px;
+  height: 20px;
+  background-color: orangered;
+  margin-left: 50px;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+
+}
